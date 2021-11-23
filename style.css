@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+}
+
+.row {
+  margin: 1rem 0;
+}
+
+.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
+.button__line {
+  background-color: rgba(0, 0, 0, 0.212);
+  position: absolute;
+  height: 100px;
+  width: 100%;
+}
+
+
+.button__line--first {
+  left: 0px;
+  top: 50%;
+  transform: translate(0%, -50%) rotate(45deg);
+  height: 1px;
+  width: 100%;
+}
+
+.button__line--second {
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, 0%) rotate(45deg);
+  height: 100%;
+  width: 1px;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.212);
+}
+
+.input-task {
+  margin: .7rem 0;
+  text-align: center;
+}
+
+.options-container {
+  width: 100%;
+}
+
+.date-btn {
+  margin: 0;
+}
+
+.option-btn {
+  margin: 0 1rem;
+}
+
+.add-btn {
+  margin: 0;
+}
+
+.list-group-item {
+  margin: 0.2rem;
+}
